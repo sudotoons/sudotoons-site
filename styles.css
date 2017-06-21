@@ -1,0 +1,96 @@
+html {
+    font-family: "Menlo";
+    height:100vh;
+}
+
+body {
+    width: 100%;
+    min-height:100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+    .logo {
+        display:flex;
+        flex-direction: row;
+        align-items: baseline;
+        
+        justify-content: center;
+        font-weight: bold;
+        
+        margin-top: -200px;
+        font-size: 100px;
+    }
+
+        .tilde {
+            order: 1;
+            color: rgba(186,186,186,0.6);
+        }
+
+        .sudo {
+            order: 2;
+            color: rgba(186,186,186,1.0);
+        }
+
+        .toons {
+            order: 3;
+            transition:0.25s linear;
+            color: rgba(151,218,135,1.0);
+        }
+
+        .toons:hover {
+            color: white;
+            text-shadow: -5px 0  rgba(151,218,135,1.0),
+                        0 1.5px  rgba(151,218,135,1.0),
+                        1.5px 0  rgba(151,218,135,0.8),
+                        0 -1.5px rgba(151,218,135,1.0);
+
+        }
+
+    .description {
+        font-size: 20px;
+        opacity:0.3;
+        text-align: center;
+    }
+
+    .coming-soon {
+        margin-top: 18px;
+        color: rgba(151,218,135,1.0);
+        text-align: center;
+    }
+
+
+
+@media only screen and (max-width: 700px) {
+    .logo {
+    font-size: 60px
+    }
+    
+    .description {
+    font-size: 15px;
+    }
+
+    .coming-soon {
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+    font-size: 40px
+    }
+
+    .description {
+    font-size: 12px;
+    }
+
+        .coming-soon {
+    font-size: 11px;
+    }
+}
+    
+
+    
