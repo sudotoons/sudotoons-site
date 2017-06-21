@@ -60,35 +60,36 @@ body {
         margin-top: 18px;
         color: rgba(151,218,135,1.0);
         text-align: center;
+        font-size: 20px;
     }
 
 
 
 @media only screen and (max-width: 700px) {
     .logo {
-    font-size: 60px
+    font-size: 70px
     }
     
     .description {
-    font-size: 15px;
+    font-size: 20px;
     }
 
     .coming-soon {
-    font-size: 14px;
+    font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .logo {
-    font-size: 40px
+    font-size: 50px
     }
 
     .description {
-    font-size: 12px;
+    font-size: 15px;
     }
 
         .coming-soon {
-    font-size: 11px;
+    font-size: 15px;
     }
 }
     
